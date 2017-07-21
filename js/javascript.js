@@ -46,7 +46,7 @@ var datos=[];
 				for(i=0;i<datos.length;i++){
 					b+=(datos[i].nota)/datos.length;
 				}
-				document.getElementById("texto1").innerHTML=b.toFixed(2);
+				alert("El Promedio es de: "+b.toFixed(2));
 			}
 
 			// Funcion para encontrar el numero mayor y mostrar el nombre
@@ -61,7 +61,7 @@ var datos=[];
 			}
 			contador++;
 		}
-		document.getElementById("texto2").innerHTML=c;
+		alert("El Mejor Estudiante es: "+c)
 	}
 
 //Funcion para encontrar el numero menor y mostrar el nombre
@@ -76,5 +76,5 @@ var datos=[];
 			}
 			contador++;
 		}
-		document.getElementById("texto3").innerHTML=d;
+		alert("El Peor Estudiante es: "+d )
 	}

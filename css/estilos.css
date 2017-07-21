@@ -38,9 +38,6 @@ td{
 td:hover {
   background-color: #2e8b57
 }
-#texto1,#texto2,#texto3{
-  color: red;
-}
 #campo1,#campo2,#campo3{
   border-radius: 5px;
   height: 18px;
