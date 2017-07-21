@@ -1,0 +1,55 @@
+body{
+  font-family: arial;
+}
+#cabecera{
+  position: absolute;
+  background: #90ee90;
+  top: 8%;
+  left: 10%;
+  width: 40%;
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid black;
+}
+#contenedor{
+  background: #3cb371;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  border: 2px solid black;
+}
+#tabla{
+  width: 90%;
+  text-align: center;
+  align: center;
+  margin: auto;
+}
+th{
+  border-bottom: 1px dashed red;
+}
+td{
+  border-bottom: 1px solid;
+}
+td:hover {
+  background-color: #2e8b57
+}
+#texto1,#texto2,#texto3{
+  color: red;
+}
+#campo1,#campo2,#campo3{
+  border-radius: 5px;
+  height: 18px;
+  width: 50%;
+}
+.boton{
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 30px;
+  margin: 5px;
+}

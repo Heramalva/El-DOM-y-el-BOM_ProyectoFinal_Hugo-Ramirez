@@ -4,48 +4,51 @@
 	<title>Proyecto Final DOM Y BOM</title>
 	<meta content="text/html" charset="UTF-8">
 	<script type="text/javascript" src="js/javascript.js"></script>
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-	<h1 style="text-align: center;">Registro de Estudiantes</h1>
-	<br>
-	<br>
-	<label>Código:</label>
-	<br>
-	<input id="campo1" type="number">
-	<br>
-	<label>Nombre:</label>
-	<br>
-	<input type="text" id="campo2">
-	<br>
-	<label>Nota:</label>
-	<br>
-	<input type="number" id="campo3">
-	<br>
-	<br>
-	<button onclick="registrar()">Registrar Estudiantes</button>
-	<button onclick="promedio()">Nota Promedio</button>
-	<button onclick="mayor()">Mostrar Nota Mayor</button>
-	<button onclick="menor()">Mostrar Nota Menor</button>
-	<br>
-	<br>
-
-	<table id="tabla" border>
-		<tr>
-			<th>Promedio</th>
-			<th>Nota Mayor</th>
-			<th>Nota Menor</th>
-		</tr>
-		<tr>
-			<td><p id="texto2"></p></td>
-			<td><p id="texto3"></p></td>
-			<td><p id="texto4"></p></td>
-		</tr>
-		<tr>
-			<th>Codigo</th>
-			<th>Nombre</th>
-			<th>Nota</th>
-		</tr>
-		
-	</table>
+	<div id="cabecera">
+		<b>Registro de Estudiantes</b>
+	</div>
+	<div id="contenedor">
+		<label><b>Código:</b></label>
+		<br>
+		<input id="campo1" type="number" value="">
+		<br>
+		<label><b>Nombre:</b></label>
+		<br>
+		<input type="text" id="campo2">
+		<br>
+		<label><b>Nota:</b></label>
+		<br>
+		<input type="number" id="campo3">
+		<br>
+		<br>
+		<button class="boton" onclick="registrar()">Registrar Estudiante</button>
+		<br>
+		<br>
+		<button class="boton" onclick="promedio()">Nota Promedio</button>
+		<button class="boton" onclick="mayor()">Mostrar Nota Mayor</button>
+		<button class="boton" onclick="menor()">Mostrar Nota Menor</button>
+		<br>
+		<br>
+		<table id="tabla">
+			<tr>
+				<th>Promedio</th>
+				<th>Nota Mayor</th>
+				<th>Nota Menor</th>
+			</tr>
+			<tr>
+				<td id="texto1"><br></td>
+				<td id="texto2"><br></td>
+				<td id="texto3"><br></td>
+			</tr>
+			<tr>
+				<th>Código</th>
+				<th>Nombre</th>
+				<th>Nota</th>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
