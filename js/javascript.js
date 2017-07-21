@@ -25,9 +25,7 @@ var estudiantes = [];
   		datos.push(estudiantes);
 
 		//comprobando en consola que guarda los datos en JSON
-  		console.log(estudiantes);
-			var types=JSON.parse(estudiantes);
-			console.log(types);
+  		console.log(datos);
 
 		//limpiar los campos para el proximo estudiante
   		campo1.value="";
